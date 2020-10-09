@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    display:flex; flex-direction:column; justify-content:center;
+    min-height:100vh; 
+    background-image: url('../imgs/backgroundMenu.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+    
+}
+
+  .eightbit-btn {
+    background: #92CD41;
+    width: 20%;
+    display:block;
+    position: relative;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    box-shadow: inset -4px -4px 0px 0px #CC6B8E;
+    
+  }
+  .eightbit-btn:hover, .eightbit-btn:focus {
+    background: #87749A;
+    box-shadow: inset -6px -6px 0px 0px #CC6B8E;
+    text-decoration: none;
+    color: white;
+  }
+  .eightbit-btn:active {
+    box-shadow: inset 4px 4px 0px 0px #CC6B8E;
+  }
+  .eightbit-btn:before, .eightbit-btn:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+  }
+  .eightbit-btn:before {
+    top: -6px;
+    left: 0;
+    border-top: 6px solid white ;
+    border-bottom: 6px solid white ;
+  }
+  .eightbit-btn:after {
+    left: -6px;
+    top: 0;
+    border-left: 6px solid white ;
+    border-right: 6px solid white ;
+  }
+  .eightbit-btn--reset {
+    background: #E76E55;
+    box-shadow: inset -4px -4px 0px 0px #FF6B33;
+  }
+  .eightbit-btn--reset:hover, .eightbit-btn--reset:focus {
+    background: #FF8E64;
+    box-shadow: inset -6px -6px 0px 0px #FF6B33;
+  }
+  .eightbit-btn--reset:active {
+    box-shadow: inset 4px 4px 0px 0px #FF6B33;
+  }
+  .eightbit-btn--proceed {
+    background: #F7D51D;
+    box-shadow: inset -4px -4px 0px 0px #753C57;
+  }
+  .eightbit-btn--proceed:hover, .eightbit-btn--proceed:focus {
+    background: #E76B81;
+    box-shadow: inset -6px -6px 0px 0px #753C57;
+  }
+  .eightbit-btn--proceed:active {
+    box-shadow: inset 4px 4px 0px 0px #753C57;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+
+  h1 {
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h1, h2 {
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  
+  .titulo{
+    color:white;
+    font-size: 6rem;
+    padding-bottom: 9rem;
+    -webkit-text-stroke: 5px #686868;
+  
+    
+  }
+  
+  
+  .pen-intro {
+    text-align: center;
+  }
+
+
+  @media screen and (max-width: 600px) {
+
+    .eightbit-btn { background:#AB92C9; width:80%; }
+
+    .eightbit-btn--proceed { background: #EC8E9E; }
+
+    .eightbit-btn--reset { background: #FFA684; }
+
+    .titulo{
+      color:white;
+      font-size: 3rem;
+      padding-bottom: 6rem;
+      -webkit-text-stroke: 3px #686868;
+  
+    }
+
+  }
+
+  @media screen and (min-width: 600px) {
+
+    .eightbit-btn { background:#AB92C9; width: 80%; }
+
+    .eightbit-btn--proceed { background: #EC8E9E; }
+
+    .eightbit-btn--reset { background: #FFA684; }
+
+    .titulo{
+      color:white;
+      font-size: 4rem;
+      padding-bottom: 6rem;
+      -webkit-text-stroke: 3px #686868;
+    
+      
+    }
+ 
+  }
+  
+  @media screen and (min-width: 768px) {
+
+    .eightbit-btn { background: #AB92C9; width: 50%; }
+
+    .eightbit-btn--proceed { background: #EC8E9E; }
+
+    .eightbit-btn--reset { background: #FFA684; }
+
+    .titulo{
+      color:white;
+      font-size: 5rem;
+      padding-bottom: 9rem;
+      -webkit-text-stroke: 5px #686868;
+    
+      
+    }
+
+  }
+
+
+  @media screen and (min-width: 1024px) {
+
+    .eightbit-btn { background:	#AB92C9; width: 50%; }
+
+    .eightbit-btn--proceed { background: #EC8E9E; }
+
+    .eightbit-btn--reset { background: #FFA684; }
+
+    .titulo{
+      color:white;
+      font-size: 6rem;
+      padding-bottom: 9rem;
+      -webkit-text-stroke: 5px #686868;
+    
+      
+    }
+
+  }
